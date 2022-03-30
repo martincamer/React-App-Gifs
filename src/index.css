@@ -1,0 +1,71 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding: 60px;
+  background-color: rgba(126, 88, 75, 0.295);
+  color: rgb(68, 68, 68);
+}
+
+button {
+  font-size: 20px;
+  width: 100px;
+  padding: 15px;
+}
+
+input {
+  font-size: 1.2rem;
+  width: 100%;
+  color: green;
+}
+
+.card p {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.card img {
+  border: 1px solid grey;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 450px;
+  height: 450px;
+}
+
+.card-grid {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.category-h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 38px;
+}
+
+.text-expert {
+  text-align: center;
+  font-size: 36px;
+}
+
+.center-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 800;
+}
